@@ -40,7 +40,7 @@ let addElement = () => {      // For adding the element to the UI
             <p>${array[id].weather[0].main}</p>
         </div>         
      `
-    container.insertAdjacentHTML('beforeend',template);
+    container.insertAdjacentHTML('afterbegin',template);
     id++;
 }
 
